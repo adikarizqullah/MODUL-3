@@ -1,0 +1,20 @@
+bJari = input()
+bTinggi = input()
+bJari = float(bJari)
+bTinggi = float(bTinggi)
+bVolume = 22*bJari*bJari*bTinggi/7
+bLuas = 2*22*bJari*(bJari+bTinggi)/7
+bKleliling = 2*22*bJari/7
+print("Volume = {:.2f}".format(bVolume))
+print("Luas = {:.2f}".format(bLuas))
+print("Keliling = {:.2f}".format(bKleliling))
+
+aJari, aTinggi = input().split()
+aJari = float(aJari)
+aTinggi = float(aTinggi)
+volume = 22*aJari*aJari*aTinggi/7
+luas = 2*22*aJari*(aJari+aTinggi)/7
+keliling = 2*22*aJari/7
+print("Volume -= {:.2f}".format(volume))
+print("Luas = {:.2f}".format(luas))
+print("Keliling = {:.2f}".format(keliling))
